@@ -32,8 +32,8 @@ class Weather:
 # Weather Hacks URL
 URL = "http://weather.livedoor.com/forecast/webservice/json/v1?city={0}"
 
-# 町コード：横浜市
-ID = 140010
+# 町コード：東京都　東京
+ID = 130010
 
 # リクエスト実行
 req = urllib.request.Request(URL.format(ID))
